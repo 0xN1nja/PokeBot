@@ -197,7 +197,7 @@ async def on_message(message):
       embed.add_field(name="First Ablity",value=first_ability,inline=False)
       embed.add_field(name="Height",value=height,inline=False)
       embed.add_field(name="Weight",value=weight,inline=False)
-      embed.add_field(name="Base Experiece",value=base_experience)
+      embed.add_field(name="Base Experience",value=base_experience)
       embed.set_footer(text=f"Requested By : {message.author.name}")
       embed.add_field(name="Congratulations :partying_face: !",value=f"You Catched {random_poke} !",inline=False)
     else:
@@ -211,7 +211,7 @@ async def on_message(message):
       embed.add_field(name="Second Ablity",value=second_ability,inline=False)
       embed.add_field(name="Height",value=height,inline=False)
       embed.add_field(name="Weight",value=weight,inline=False)
-      embed.add_field(name="Base Experiece",value=base_experience)
+      embed.add_field(name="Base Experience",value=base_experience)
       embed.set_footer(text=f"Requested By : {message.author.name}")
       embed.add_field(name="Congratulations :partying_face: !",value=f"You Catched {random_poke} !",inline=False)
     await message.reply(embed=embed)
